@@ -2,4 +2,9 @@ Denise/
 __pycache__/
 *.pyc
 .env
-temp_tickets/
+temp_tickets/nmap/ 
+__pycache__/ 
+.env 
+minio.exe 
+minio.exe 
+minio.exe 
