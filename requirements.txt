@@ -1,0 +1,31 @@
+# Dependencias principales del proyecto (Smart Fridge IoT + Auditoría de Red con FastMCP)
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+alembic>=1.13.0
+python-dotenv>=1.0.0
+httpx>=0.27.0
+
+# Protocolo FastMCP (Model Context Protocol)
+mcp<2
+fastmcp>=0.1.0
+
+# Auditoría de Redes y Ciberseguridad
+python-nmap>=0.7.1
+
+# Visión y Procesamiento OCR Local
+easyocr>=1.7.0
+Pillow>=10.0.0
+
+# Cliente de MinIO S3
+minio>=7.2.0
+
+# Interfaz Telegram Bot
+python-telegram-bot>=21.0
+
+# Herramientas IoT ESP32
+esptool>=4.8.0
+pyserial>=3.5
